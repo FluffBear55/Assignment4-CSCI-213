@@ -14,7 +14,7 @@ namespace Assignment_4.InstructorInfo
         {
             if (Session.Count != 0)
             {
-                if (HttpContext.Current.Session["userType"].ToString().Trim() == "student")
+                if (HttpContext.Current.Session["userType"].ToString().Trim() == "Member")
                 {
                     Session.Clear();
                     Session.RemoveAll();

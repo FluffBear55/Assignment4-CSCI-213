@@ -48,19 +48,21 @@ namespace Assignment_4
                 HttpContext.Current.Session["userType"] = myUser.UserType;
 
             }
-            if (myUser != null && HttpContext.Current.Session["userType"].ToString().Trim() == "member")
+            if (myUser != null && HttpContext.Current.Session["userType"].ToString().Trim() == "Member")
             {
 
                 FormsAuthentication.RedirectFromLoginPage(HttpContext.Current.Session["nUserName"].ToString(), true);
 
-                Response.Redirect("C:\\Users\\mbaet\\Documents\\GitHub\\Assignment4-CSCI-213\\Assignment 4\\StudentInfo\\StudentInfo.aspx.cs");
+                Response.Redirect("~/StudentInfo/StudentInfo.aspx");
+
             }
-            else if (myUser != null && HttpContext.Current.Session["userType"].ToString().Trim() == "instructor")
+            else if (myUser != null && HttpContext.Current.Session["userType"].ToString().Trim() == "Instructor")
             {
 
                 FormsAuthentication.RedirectFromLoginPage(HttpContext.Current.Session["nUserName"].ToString(), true);
 
-                Response.Redirect("C:\\Users\\mbaet\\Documents\\GitHub\\Assignment4-CSCI-213\\Assignment 4\\InstructorInfo\\InstructorInfo.aspx.cs");
+                Response.Redirect("~/InstructorInfo/InstructorInfo.aspx");
+
             }
             else
                 Response.Redirect("Logon.aspx", true);
