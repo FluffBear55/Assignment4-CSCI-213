@@ -2,14 +2,14 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <p>
         <br />
-        Instructors<asp:GridView ID="InstructorGridView" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="InstructorID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
+        <asp:GridView ID="InstructorGridView" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="InstructorID" DataSourceID="SqlDataSource1" ForeColor="#333333" GridLines="None" OnRowCommand="InstructorGridView_RowCommand">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
                 <asp:BoundField DataField="InstructorID" HeaderText="InstructorID" ReadOnly="True" SortExpression="InstructorID" />
                 <asp:BoundField DataField="InstructorFirstName" HeaderText="InstructorFirstName" SortExpression="InstructorFirstName" />
                 <asp:BoundField DataField="InstructorLastName" HeaderText="InstructorLastName" SortExpression="InstructorLastName" />
                 <asp:BoundField DataField="InstructorPhoneNumber" HeaderText="InstructorPhoneNumber" SortExpression="InstructorPhoneNumber" />
-                <asp:ButtonField Text="Delete User" />
+                <asp:ButtonField Text="Delete User" ButtonType="Button" CommandName="DeleteUser" />
             </Columns>
             <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
             <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
@@ -25,7 +25,7 @@
     <p>
         Users</p>
     <p>
-        <asp:GridView ID="MemberGridView" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Member_UserID" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None">
+        <asp:GridView ID="MemberGridView" runat="server" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="Member_UserID" DataSourceID="SqlDataSource2" ForeColor="#333333" GridLines="None" OnRowCommand="MemberGridView_RowCommand">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
                 <asp:BoundField DataField="Member_UserID" HeaderText="UserID" ReadOnly="True" SortExpression="Member_UserID" />
@@ -34,7 +34,7 @@
                 <asp:BoundField DataField="MemberDateJoined" HeaderText="DateJoined" SortExpression="MemberDateJoined" />
                 <asp:BoundField DataField="MemberPhoneNumber" HeaderText="PhoneNumber" SortExpression="MemberPhoneNumber" />
                 <asp:BoundField DataField="MemberEmail" HeaderText="Email" SortExpression="MemberEmail" />
-                <asp:ButtonField Text="Delete User" />
+                <asp:ButtonField Text="Delete User" ButtonType="Button" CommandName="DeleteUser" />
             </Columns>
             <EditRowStyle BackColor="#2461BF" />
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />

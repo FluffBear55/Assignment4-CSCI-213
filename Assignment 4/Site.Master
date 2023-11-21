@@ -49,8 +49,10 @@
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/">Home</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Logon">Login</a></li>
                         <li class="nav-item"><a class="nav-link" runat="server" href="~/Contact">Contact</a></li>
-                          <li class="nav-item"><a class="nav-link" runat="server" href="~/StudentInfo/StudentInfo.aspx">Students</a></li>
-        <li class="nav-item"><a class="nav-link" runat="server" href="~/InstructorInfo/InstructorInfo.aspx">Instructors</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/StudentInfo/StudentInfo.aspx">Students</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/InstructorInfo/InstructorInfo.aspx">Instructors</a></li>
+                        <li class="nav-item"><a class="nav-link" runat="server" href="~/Administration Page/Administrator.aspx">Admin</a></li>
+                        
 
                     </ul>
                 </div>
