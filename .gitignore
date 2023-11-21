@@ -1,3 +1,5 @@
 
-*.mdf
-*.ldf
+Assignment 4/Databases/MemberLogins_log.ldf
+Assignment 4/Databases/KarateSchool_log.ldf
+Assignment 4/Databases/KarateSchool.mdf
+Assignment 4/Databases/MemberLogins.mdf
