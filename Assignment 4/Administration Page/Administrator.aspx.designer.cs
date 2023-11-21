@@ -7,10 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assignment_4.Administration_Page {
+namespace Assignment_4.Administration_Page
+{
 
 
-    public partial class Administrator {
+    public partial class Administrator
+    {
 
         /// <summary>
         /// InstructorGridView control.
@@ -47,6 +49,15 @@ namespace Assignment_4.Administration_Page {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource1;
+
+        /// <summary>
+        /// SqlDataSource3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSource3;
 
         /// <summary>
         /// UserNameBox control.

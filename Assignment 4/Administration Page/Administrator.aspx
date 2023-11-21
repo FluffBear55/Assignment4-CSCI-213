@@ -49,6 +49,10 @@
         </asp:GridView>
         <asp:SqlDataSource ID="SqlDataSource2" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Member]"></asp:SqlDataSource>
         <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:ConnectionString %>" SelectCommand="SELECT * FROM [Instructor]"></asp:SqlDataSource>
+        <asp:SqlDataSource ID="SqlDataSource3" runat="server" 
+                    ConnectionString = "<%$ ConnectionStrings:ConnectionString %>" 
+                    SelectCommand="SELECT Section.SectionName, Member.MemberFirstName, Member.MemberLastName FROM Section INNER JOIN Member ON Section.SectionID = Member.Member_UserID">
+</asp:SqlDataSource>
     </p>
     <p>
         <table style="width:100%;">
