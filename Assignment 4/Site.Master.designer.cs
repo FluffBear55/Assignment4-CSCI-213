@@ -7,19 +7,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Assignment_4 {
+namespace Assignment_4
+{
 
 
-    public partial class SiteMaster {
-
-        /// <summary>
-        /// HeadContent control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder HeadContent;
+    public partial class SiteMaster
+    {
 
         /// <summary>
         /// MainContent control.
