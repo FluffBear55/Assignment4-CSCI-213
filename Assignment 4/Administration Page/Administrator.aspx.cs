@@ -17,7 +17,7 @@ namespace Assignment_4.Administration_Page {
 
         protected void Page_Load(object sender, EventArgs e) {
 
-            string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\Alan\\Documents\\Assignment 4 CSCI 213 Repo\\Assignment4-CSCI-213\\Assignment 4\\App_Data\\KarateSchool.mdf\";Integrated Security=True;Connect Timeout=30";
+            string connString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\KarateSchool.mdf;Integrated Security=True;Connect Timeout=30";
             dbConn = new DataClasses1DataContext(connString);
 
             if (!IsPostBack) {

@@ -14,13 +14,13 @@ namespace Assignment_4
     public partial class Logon : System.Web.UI.Page
     {
         //Connect to the database
-        KarateDataContext dbcon;
-        string conn = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=\"C:\\Users\\mbaet\\Documents\\GitHub\\Assignment4-CSCI-213\\Assignment 4\\Databases\\KarateSchool.mdf\";Integrated Security=True;Connect Timeout=30";
+        DataClasses1DataContext dbcon;
+        string conn = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\\KarateSchool.mdf;Integrated Security=True;Connect Timeout=30";
 
         protected void Page_Load(object sender, EventArgs e)
         {
             //Initialize connection string 
-            dbcon = new KarateDataContext(conn);
+            dbcon = new DataClasses1DataContext(conn);
         }
 
 

@@ -50,22 +50,6 @@ C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignme
 C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\roslyn\vbc.rsp
 C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\roslyn\VBCSCompiler.exe
 C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Antlr3.Runtime.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\AspNet.ScriptManager.jQuery.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.AspNet.FriendlyUrls.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.ScriptManager.MSAjax.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.ScriptManager.WebForms.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Newtonsoft.Json.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\System.Web.Optimization.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\WebGrease.dll
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\System.Web.Optimization.xml
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Newtonsoft.Json.xml
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Antlr3.Runtime.pdb
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.AspNet.FriendlyUrls.xml
-C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\obj\Debug\Assignment 4.csproj.AssemblyReference.cache
 C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\obj\Debug\Assignment 4.csproj.CoreCompileInputs.cache
 C:\Users\Alan\Documents\Assignment 4 CSCI 213 Repo\Assignment4-CSCI-213\Assignment 4\obj\Debug\Assignment 4.csproj.CopyComplete
